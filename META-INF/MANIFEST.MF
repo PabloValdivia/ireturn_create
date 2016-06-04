@@ -1,10 +1,11 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: RMACreateReturn
-Bundle-SymbolicName: com.ingeint.RMACreateReturn
-Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.ingeint.RMACreateReturn;singleton:=true
+Bundle-Version: 1.1.1.qualifier
 Bundle-Vendor: www.ingeint.com
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: org.adempiere.base;bundle-version="3.1.0",
  org.adempiere.plugin.utils;bundle-version="3.1.0"
 Service-Component: src/OSGI-INF/com.ingeint.ProcessFactory.xml
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
